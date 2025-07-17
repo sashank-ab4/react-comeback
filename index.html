@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sashank AB</title>
+</head>
+<body>
+  <div id="root"></div>
+ <!--  <script>
+const heading = document.createElement('h1') // create a h1 element
+heading.innerHTML = 'Hello World from JavaScript!' // the text that should show on screen
+const root = document.querySelector('#root') // checks if there's any id for div
+root.appendChild(heading) // push that h1's id & element into that div.
+</script> -->
+<script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+<script>
+  const heading = React.createElement('h1', {}, 'Hello World from React!')
+const root = ReactDOM.createRoot(document.getElementById('root'))
+
+root.render(heading)
+</script>
+
+</body>
+</html>
