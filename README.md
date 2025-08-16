@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ReduxToolKit
 
 -- In a web page, when we click "add" button it disptaches an action which calls a reducer function that which will /modify/update the slice of the redux store.
@@ -44,3 +45,6 @@ This will immediately execute handleClick(item) while rendering, instead of wait
 - Installed jsdom library: npm install --save-dev jest-environment-jsdom
 - Install @babel/preset-react to make JSX work in test cases
 - Configure in babel.config.js
+=======
+React Comeback!
+>>>>>>> b6eeaf89e619babd4d5812a0eb74e3733b0dc13c
